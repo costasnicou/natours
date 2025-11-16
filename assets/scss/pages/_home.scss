@@ -1,0 +1,22 @@
+.section-about{
+    background-color: $color-grey-light-1;
+    padding: 25rem 5rem;
+    margin-top: -15vh;
+   
+}
+
+.section-features{
+    height: 65vh;
+    background-image: linear-gradient(to right bottom,rgba(126,213,111,0.8),rgba(40,180,131,0.8)),url(../img/nat-4.jpg);
+    background-size: cover;
+    background-position: top;
+    // clip-path: polygon(0 0, 100% 0, 100% 40vh,0 100%);
+    
+    padding: 20rem 0;
+    transform: skewY(-5deg);
+
+    margin-top: -9rem;
+    & > *{
+        transform: skewY(3.9deg);
+    }
+}
