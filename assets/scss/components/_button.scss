@@ -25,6 +25,25 @@
     
 }
 
+
+.btn-white::after{
+    background-color: $color-white;
+  
+}
+
+.btn-green{
+    background-color: $color-primary;
+    color: $color-white;
+    
+}
+
+
+.btn-green::after{
+    background-color: $color-primary;
+  
+}
+
+
 .btn::after{
     content: "";
     display: inline-block;
@@ -38,10 +57,6 @@
     transition: all .4s;
 }
 
-.btn-white::after{
-    background-color: $color-white;
-  
-}
 
 .btn:hover::after{
     /* width: 110%; */
