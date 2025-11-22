@@ -29,7 +29,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%;
+  font-size: 10rem;
   scroll-behavior: smooth; }
   @media only screen and (max-width: 75em) {
     html {
