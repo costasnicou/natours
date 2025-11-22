@@ -29,7 +29,14 @@
     text-align: center;
 
     
-
+    @include respond(phone){
+        
+        //  padding: 0 2rem;
+         width: 70%;
+         margin: 0 auto;
+         text-align: center;
+        
+    }
 
     #header-link{
         animation-name: moveintop;

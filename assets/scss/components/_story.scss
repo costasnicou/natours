@@ -8,9 +8,17 @@
     padding-left: 9rem;
     font-size: 1.6rem;
     transform: skewX(-12deg);
-
+    
     &:not(:last-of-type){
         margin-bottom: 5rem;
+    }
+
+     @include respond(phone){
+
+        // transform: translateX(-4rem);
+        // font-size: 4rem;
+         width: 95%;
+         
     }
 
     &__shape{
@@ -27,7 +35,15 @@
         position: relative;
 
 
-       
+        @include respond(phone){
+
+            float: none;
+            margin-bottom: 4rem;
+            left: 50%;
+            transform: translateX(-70%) skewX(12deg);
+            
+        }
+
     
     }
 

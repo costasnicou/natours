@@ -59,6 +59,15 @@
         width: 30%;
         display: inline-block;
         transform: translateX(-17px);
+
+
+        @include respond(phone){
+            
+            //  padding: 0 2rem;
+            width: 40%;
+           
+            
+        }
     }
 
     &__label-radio{
